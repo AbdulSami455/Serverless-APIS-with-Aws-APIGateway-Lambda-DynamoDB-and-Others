@@ -41,7 +41,7 @@ def lambda_handler(event, context):
         response = buildResponse(404, 'Not Found')
     return response
 
-
+#Function to get Product from DynamoDb Database
 def getProduct(productid):
     try:
         response = table.get_item(
@@ -58,6 +58,7 @@ def getProduct(productid):
         return buildResponse(500, 'Internal Server Error')
 
 
+#Get ALl Products from DynamoDb
 def getProducts():
     try:
         response = table.scan()
@@ -67,7 +68,7 @@ def getProducts():
         logger.error(str(e))
         return buildResponse(500, 'Internal Server Error')
 
-
+#Save Product in DynamoDB
 def saveProduct(product):
     try:
         table.put_item(Item=product)
