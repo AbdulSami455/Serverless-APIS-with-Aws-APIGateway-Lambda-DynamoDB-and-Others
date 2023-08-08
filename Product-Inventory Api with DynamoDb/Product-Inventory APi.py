@@ -23,3 +23,17 @@ def lambda_handler(event,context):
     httpMethod=event['httpMethod']
     path=event['path']
     if httpMethod==getmethod and path == healthpath:
+       response=buildResponse(200)
+
+def buildResponse(statusCode,body=None):
+    response={
+        'statusCode':statusCode,
+        'header':{
+            'Content-type':'applications/json',
+            'Access-Control-allow-origin':'*'
+
+        }
+    }
+    if body is not None:
+        response['body']=json.dumps(body)
+    return response
