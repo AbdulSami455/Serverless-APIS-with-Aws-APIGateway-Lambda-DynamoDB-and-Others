@@ -3,5 +3,6 @@ You can Authenticate your Serverless Api with Cognito Authorizer
 1. Open Cognito Service in Aws
 2.  Create User Pool and allow user
 3. Disable MFA
-4. Name USer pool and Use AWS Ui
-5.
+4. Name USer pool and Use Cognito Hosted  Ui
+5. ALlow Inital CLient and Create User Callback
+6.
