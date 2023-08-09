@@ -1,0 +1,4 @@
+You can Authenticate your Serverless Api with Cognito Authorizer
+ Here are the All Steps
+1. Open Cognito Service in Aws
+2.
