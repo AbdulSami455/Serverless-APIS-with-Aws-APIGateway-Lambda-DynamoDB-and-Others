@@ -77,7 +77,7 @@ def saveProduct(product):
         logger.error(str(e))
         return buildResponse(500, 'Internal Server Error')
 
-
+#
 def modifyProduct(productid, updatekey, updatevalue):
     try:
         table.update_item(
