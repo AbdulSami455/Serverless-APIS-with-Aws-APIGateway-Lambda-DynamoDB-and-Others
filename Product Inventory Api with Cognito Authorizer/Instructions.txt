@@ -6,4 +6,4 @@ You can Authenticate your Serverless Api with Cognito Authorizer
 4. Name USer pool and Use Cognito Hosted  Ui
 5. ALlow Inital CLient and Create User Callback
 6. Give Implicant Grant in Oauth Settings in Cognito
-7.
+7.  Create Users in UserPool
