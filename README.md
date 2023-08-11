@@ -16,3 +16,6 @@ Product Inventory Api with Cognito Authorizer:
 
 
 Real-Time Chat Application 
+
+![SystemDiagram](https://github.com/AbdulSami455/Serverless-APIS-with-Aws-APIGateway-Lambda-DynamoDB-and-Others/assets/111019622/abcf3e69-dc6a-479a-b096-758fc546058e)
+
