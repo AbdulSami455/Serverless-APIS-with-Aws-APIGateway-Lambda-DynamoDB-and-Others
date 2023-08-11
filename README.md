@@ -13,3 +13,6 @@ Product Inventory API:
 Product Inventory Api with Cognito Authorizer:
 
 ![SystemDiagram](https://github.com/AbdulSami455/Serverless-APIS-with-Aws-APIGateway-Lambda-DynamoDB-and-Others/assets/111019622/2ac41a22-17f7-4e59-b4f9-2d4c4c2dc418)
+
+
+Real-Time Chat Application 
